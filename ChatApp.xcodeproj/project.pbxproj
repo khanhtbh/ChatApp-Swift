@@ -7,11 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA87FF9B21A11F39001B9528 /* ViewControllerLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA87FF9A21A11F39001B9528 /* ViewControllerLogic.swift */; };
+		AA87FFA121A12A58001B9528 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA87FFA021A12A58001B9528 /* Splash.storyboard */; };
 		AAB40061213A97AA0081009C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB40060213A97AA0081009C /* AppDelegate.swift */; };
 		AAB40063213A97AA0081009C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB40062213A97AA0081009C /* ViewController.swift */; };
 		AAB40066213A97AA0081009C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB40064213A97AA0081009C /* Main.storyboard */; };
 		AAB40068213A97AC0081009C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB40067213A97AC0081009C /* Assets.xcassets */; };
 		AAB4006B213A97AC0081009C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB40069213A97AC0081009C /* LaunchScreen.storyboard */; };
+		AABDDD2921A94995000CF05C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABDDD2821A94995000CF05C /* User.swift */; };
+		AABDDD2B21A949AB000CF05C /* UserInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABDDD2A21A949AB000CF05C /* UserInteractor.swift */; };
+		AABDDD2D21A94C6A000CF05C /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABDDD2C21A94C6A000CF05C /* APIConstant.swift */; };
+		AABDDD3021A94CFD000CF05C /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABDDD2F21A94CFD000CF05C /* AppConstant.swift */; };
+		AAFA0ECC21A90A3C009B702F /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFA0ECB21A90A3C009B702F /* SplashViewController.swift */; };
+		AAFA0ECE21A9114E009B702F /* SplashPresentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFA0ECD21A9114E009B702F /* SplashPresentor.swift */; };
+		AAFA0ED021A911CD009B702F /* SplashViewControllerPresentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFA0ECF21A911CD009B702F /* SplashViewControllerPresentor.swift */; };
 		C7657B01D26A8B4E0589169E /* Pods_ChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC8B9257C629FE7FEEF14CE /* Pods_ChatApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -19,6 +28,8 @@
 		071A6659995B341795AFB9D9 /* Pods-ChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatApp/Pods-ChatApp.release.xcconfig"; sourceTree = "<group>"; };
 		5FC8B9257C629FE7FEEF14CE /* Pods_ChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		891A7FF69E06540F5445E6F0 /* Pods-ChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatApp/Pods-ChatApp.debug.xcconfig"; sourceTree = "<group>"; };
+		AA87FF9A21A11F39001B9528 /* ViewControllerLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerLogic.swift; sourceTree = "<group>"; };
+		AA87FFA021A12A58001B9528 /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
 		AAB4005D213A97AA0081009C /* ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB40060213A97AA0081009C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAB40062213A97AA0081009C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,6 +38,13 @@
 		AAB4006A213A97AC0081009C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAB4006C213A97AC0081009C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAB40072213A9B0A0081009C /* ChatApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChatApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		AABDDD2821A94995000CF05C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AABDDD2A21A949AB000CF05C /* UserInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInteractor.swift; sourceTree = "<group>"; };
+		AABDDD2C21A94C6A000CF05C /* APIConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstant.swift; sourceTree = "<group>"; };
+		AABDDD2F21A94CFD000CF05C /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		AAFA0ECB21A90A3C009B702F /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		AAFA0ECD21A9114E009B702F /* SplashPresentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresentor.swift; sourceTree = "<group>"; };
+		AAFA0ECF21A911CD009B702F /* SplashViewControllerPresentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewControllerPresentor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +65,61 @@
 				5FC8B9257C629FE7FEEF14CE /* Pods_ChatApp.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA87FF9821A11EB6001B9528 /* VPR */ = {
+			isa = PBXGroup;
+			children = (
+				AAB40062213A97AA0081009C /* ViewController.swift */,
+				AA87FF9921A11F31001B9528 /* Base */,
+				AA87FF9C21A11F83001B9528 /* Splash */,
+			);
+			path = VPR;
+			sourceTree = "<group>";
+		};
+		AA87FF9921A11F31001B9528 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				AA87FF9A21A11F39001B9528 /* ViewControllerLogic.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		AA87FF9C21A11F83001B9528 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				AAFA0ECB21A90A3C009B702F /* SplashViewController.swift */,
+				AAFA0ECF21A911CD009B702F /* SplashViewControllerPresentor.swift */,
+				AAFA0ECD21A9114E009B702F /* SplashPresentor.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		AA87FF9D21A11F95001B9528 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AAB40067213A97AC0081009C /* Assets.xcassets */,
+				AA87FF9F21A12261001B9528 /* Fonts */,
+				AA87FF9E21A11FBF001B9528 /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AA87FF9E21A11FBF001B9528 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AAB40069213A97AC0081009C /* LaunchScreen.storyboard */,
+				AA87FFA021A12A58001B9528 /* Splash.storyboard */,
+				AAB40064213A97AA0081009C /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		AA87FF9F21A12261001B9528 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		AAB40054213A97AA0081009C = {
@@ -70,15 +143,57 @@
 		AAB4005F213A97AA0081009C /* ChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				AABDDD2E21A94CE2000CF05C /* Constants */,
+				AAFA0ED121A9123B009B702F /* Service */,
+				AAFA0ED321A9125C009B702F /* Entity */,
+				AAFA0ED421A91266009B702F /* Interactor */,
+				AA87FF9821A11EB6001B9528 /* VPR */,
 				AAB40060213A97AA0081009C /* AppDelegate.swift */,
-				AAB40062213A97AA0081009C /* ViewController.swift */,
-				AAB40064213A97AA0081009C /* Main.storyboard */,
-				AAB40067213A97AC0081009C /* Assets.xcassets */,
-				AAB40069213A97AC0081009C /* LaunchScreen.storyboard */,
+				AA87FF9D21A11F95001B9528 /* Resources */,
 				AAB4006C213A97AC0081009C /* Info.plist */,
 				AAB40072213A9B0A0081009C /* ChatApp-Bridging-Header.h */,
 			);
 			path = ChatApp;
+			sourceTree = "<group>";
+		};
+		AABDDD2E21A94CE2000CF05C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				AABDDD2F21A94CFD000CF05C /* AppConstant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		AAFA0ED121A9123B009B702F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				AAFA0ED221A91253009B702F /* API */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		AAFA0ED221A91253009B702F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				AABDDD2C21A94C6A000CF05C /* APIConstant.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		AAFA0ED321A9125C009B702F /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				AABDDD2821A94995000CF05C /* User.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		AAFA0ED421A91266009B702F /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				AABDDD2A21A949AB000CF05C /* UserInteractor.swift */,
+			);
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 		B785FFF76CFE97C2262EB90C /* Pods */ = {
@@ -154,6 +269,7 @@
 				AAB4006B213A97AC0081009C /* LaunchScreen.storyboard in Resources */,
 				AAB40068213A97AC0081009C /* Assets.xcassets in Resources */,
 				AAB40066213A97AA0081009C /* Main.storyboard in Resources */,
+				AA87FFA121A12A58001B9528 /* Splash.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,11 +301,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ChatApp/Pods-ChatApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketRocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -204,7 +324,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAB40063213A97AA0081009C /* ViewController.swift in Sources */,
+				AABDDD3021A94CFD000CF05C /* AppConstant.swift in Sources */,
+				AABDDD2B21A949AB000CF05C /* UserInteractor.swift in Sources */,
+				AABDDD2D21A94C6A000CF05C /* APIConstant.swift in Sources */,
+				AA87FF9B21A11F39001B9528 /* ViewControllerLogic.swift in Sources */,
+				AAFA0ED021A911CD009B702F /* SplashViewControllerPresentor.swift in Sources */,
 				AAB40061213A97AA0081009C /* AppDelegate.swift in Sources */,
+				AAFA0ECE21A9114E009B702F /* SplashPresentor.swift in Sources */,
+				AAFA0ECC21A90A3C009B702F /* SplashViewController.swift in Sources */,
+				AABDDD2921A94995000CF05C /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +479,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93W3ZP6K6Y;
 				INFOPLIST_FILE = ChatApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -361,7 +490,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "ChatApp/ChatApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -372,6 +501,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93W3ZP6K6Y;
 				INFOPLIST_FILE = ChatApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -381,7 +511,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ChatApp/ChatApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

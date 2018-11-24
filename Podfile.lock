@@ -1,16 +1,24 @@
 PODS:
+  - Alamofire (4.7.3)
   - SocketRocket (0.5.1)
+  - SwiftyJSON (4.2.0)
 
 DEPENDENCIES:
+  - Alamofire (~> 4.7)
   - SocketRocket
+  - SwiftyJSON
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - Alamofire
     - SocketRocket
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
 
-PODFILE CHECKSUM: 30a7a0ccd0e4b22eade268f05e3bc9929835c003
+PODFILE CHECKSUM: 56c8dd95bb7e23ad22b8879ad5663a36390c06e5
 
 COCOAPODS: 1.5.0
